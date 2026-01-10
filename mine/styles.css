@@ -1,0 +1,63 @@
+.container{
+    background-image: url("front.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 15px;
+    
+     font-family:"palatino Linotype","Book Antiqua",palatino,serif;
+}
+.menu-btn {
+  font-size: 30px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+}
+ 
+.menu {
+  display: none;
+  margin-top: 10px;
+}
+
+.btn-container {
+    background-color: rgba(37, 33, 33, 0.9);
+    border: none;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+.btn-container.active{
+    text-decoration: underline;
+}
+.profile-pic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    border: 2px solid white;
+}
+.centered{
+    color: white; 
+    position: absolute;
+    top: 40%;
+    left:35%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.down{
+    color: rgb(159, 157, 157);
+    position: relative;
+    top: 100%;
+     left: 170px;
+    text-align: justify;
+}
+.frontend{
+    color: white;
+    position: relative;
+    top:100%;
+    left: 190px;
+}
