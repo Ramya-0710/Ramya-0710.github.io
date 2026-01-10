@@ -1,0 +1,14 @@
+.login-btn{
+    background-color: rgb(63, 150, 178);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.signup-btn{
+    background-color: rgb(8, 143, 113);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
